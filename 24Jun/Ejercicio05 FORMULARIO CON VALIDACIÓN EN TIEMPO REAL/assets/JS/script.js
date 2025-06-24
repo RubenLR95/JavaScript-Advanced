@@ -23,7 +23,7 @@ cName.addEventListener('blur', () => {                                          
         cName,                                                                          //CAMPO A VALIDAR
         eName,                                                                          //CAMPO A VALIDAR
         v => v.trim() !== '',                                                           // validator : DEVUELVE true SI NO ESTÁ VACÍO
-        'obligatorio'
+        'Nombre no válido'
     );
 
 });
